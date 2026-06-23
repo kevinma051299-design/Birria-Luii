@@ -7,17 +7,43 @@
 <title>Birria de Lui | La Mejor Birria</title>
 <meta name="description" content="Birria de Lui - Envíos a domicilio. Quesabirrias, Birriamen y más. Pide por WhatsApp y recibe tu pedido caliente y rápido.">
 <meta name="theme-color" content="#0b0b0b">
+<link rel="canonical" href="https://kevinma051299-design.github.io/Birria-Luii/">
 
 <link rel="icon" href="/favicon.ico" />
 
-<!-- Preconnect / Preload -->
+<!-- Preconnect -->
 <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
-<link rel="preload" as="image" href="https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=1400">
 
-<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/style.min.css">
 
 <link rel="stylesheet"
 href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous">
+
+<!-- Open Graph / Twitter -->
+<meta property="og:type" content="restaurant">
+<meta property="og:title" content="Birria de Lui | La Mejor Birria">
+<meta property="og:description" content="Birria de Lui - Envíos a domicilio. Quesabirrias, Birriamen y más. Pide por WhatsApp y recibe tu pedido caliente y rápido.">
+<meta property="og:url" content="https://kevinma051299-design.github.io/Birria-Luii/">
+<meta property="og:image" content="https://kevinma051299-design.github.io/Birria-Luii/images/hero-1400.webp">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Birria de Lui | La Mejor Birria">
+<meta name="twitter:description" content="Birria de Lui - Envíos a domicilio. Quesabirrias, Birriamen y más.">
+<meta name="twitter:image" content="https://kevinma051299-design.github.io/Birria-Luii/images/hero-1400.webp">
+
+<!-- JSON-LD (Schema.org) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Restaurant",
+  "name": "Birria de Lui",
+  "url": "https://kevinma051299-design.github.io/Birria-Luii/",
+  "telephone": "+525560305667",
+  "image": "https://kevinma051299-design.github.io/Birria-Luii/images/hero-1400.webp",
+  "priceRange": "$",
+  "description": "Birria para llevar y entrega a domicilio. Quesabirrias, Birriamen y más.",
+  "servesCuisine": "Mexicana"
+}
+</script>
 
 </head>
 
@@ -62,6 +88,13 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
             Ordenar Ahora
         </a>
     </div>
+
+    <!-- Imagen responsiva en <picture> para mejorar SEO y rendimiento (servida desde /images generadas en CI) -->
+    <picture class="hero-media" aria-hidden="true">
+        <source type="image/avif" srcset="/images/hero-400.avif 400w, /images/hero-800.avif 800w, /images/hero-1400.avif 1400w" sizes="100vw"/>
+        <source type="image/webp" srcset="/images/hero-400.webp 400w, /images/hero-800.webp 800w, /images/hero-1400.webp 1400w" sizes="100vw"/>
+        <img src="/images/hero-800.webp" alt="Plato de birria caliente listo para servir" loading="eager"/>
+    </picture>
 
 </section>
 
@@ -282,7 +315,7 @@ aria-label="Abrir WhatsApp">
 
 </a>
 
-<script src="app.js" defer></script>
+<script src="app.min.js" defer></script>
 
 </body>
 </html>
