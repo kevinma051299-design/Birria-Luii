@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Birria de Lui | La Mejor Birria</title>
+<meta name="description" content="Birria de Lui - Envíos a domicilio. Quesabirrias, Birriamen y más. Pide por WhatsApp y recibe tu pedido caliente y rápido.">
+<meta name="theme-color" content="#0b0b0b">
+
+<link rel="icon" href="/favicon.ico" />
+
+<!-- Preconnect / Preload -->
+<link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+<link rel="preload" as="image" href="https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=1400">
+
+<link rel="stylesheet" href="css/style.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+<!-- HEADER -->
+
+<header>
+    <div class="logo">
+        <h1>BIRRIA DE LUI</h1>
+    </div>
+
+    <nav aria-label="Navegación principal">
+        <a href="#inicio">Inicio</a>
+        <a href="#promociones">Promociones</a>
+        <a href="#menu">Menú</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+
+    <button class="cart-btn" id="cart-toggle" aria-controls="cart" aria-expanded="false">
+        <i class="fas fa-shopping-cart" aria-hidden="true"></i>
+        <span id="cart-count">0</span>
+    </button>
+</header>
+
+<main>
+
+<!-- HERO -->
+
+<section id="inicio" class="hero" role="region" aria-label="Imagen principal y llamado a la acción">
+
+    <div class="hero-content">
+        <h2>DISFRUTA EL PARTIDO</h2>
+
+        <h1>Nosotros llevamos la birria a tu domicilio</h1>
+
+        <p>
+            Directo a tu casa, rápido y calientito.
+        </p>
+
+        <a href="#menu" class="btn">
+            Ordenar Ahora
+        </a>
+    </div>
+
+</section>
+
+<!-- PROMOCIONES -->
+
+<section id="promociones" class="promotions">
+
+    <h2>Promociones</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>Combo Quesabirrias</h3>
+
+            <p>
+                3 Quesabirrias + Consomé +
+                Refresco o Agua 500ml
+            </p>
+
+            <h4>$125</h4>
+
+            <button class="add-btn" data-name="Combo Quesabirrias" data-price="125">
+                Agregar
+            </button>
+        </div>
+
+        <div class="card">
+            <h3>Combo Birriamen</h3>
+
+            <p>
+                Birriamen + Refresco o Agua
+                500ml
+            </p>
+
+            <h4>$115</h4>
+
+            <button class="add-btn" data-name="Combo Birriamen" data-price="115">
+                Agregar
+            </button>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- MENÚ -->
+
+<section id="menu">
+
+    <h2>Nuestro Menú</h2>
+
+    <div class="menu-grid">
+
+        <div class="product">
+            <h3>Plato Grande</h3>
+            <p>150 gr de carne</p>
+            <span>$150</span>
+
+            <button class="add-btn" data-name="Plato Grande" data-price="150">
+                Agregar
+            </button>
+        </div>
+
+        <div class="product">
+            <h3>Plato Chico</h3>
+            <p>100 gr de carne</p>
+            <span>$125</span>
+
+            <button class="add-btn" data-name="Plato Chico" data-price="125">
+                Agregar
+            </button>
+        </div>
+
+        <div class="product">
+            <h3>Taco Suave</h3>
+            <p>Birria tradicional</p>
+            <span>$28</span>
+
+            <button class="add-btn" data-name="Taco Suave" data-price="28">
+                Agregar
+            </button>
+        </div>
+
+        <div class="product">
+            <h3>Quesabirria</h3>
+            <p>Una pieza</p>
+            <span>$38</span>
+
+            <button class="add-btn" data-name="Quesabirria" data-price="38">
+                Agregar
+            </button>
+        </div>
+
+        <div class="product">
+            <h3>Birriamen</h3>
+            <span>$90</span>
+
+            <button class="add-btn" data-name="Birriamen" data-price="90">
+                Agregar
+            </button>
+        </div>
+
+        <div class="product">
+            <h3>Refresco</h3>
+            <span>$25</span>
+
+            <button class="add-btn" data-name="Refresco" data-price="25">
+                Agregar
+            </button>
+        </div>
+
+        <div class="product">
+            <h3>Agua Horchata 500ml</h3>
+            <span>$20</span>
+
+            <button class="add-btn" data-name="Agua Horchata" data-price="20">
+                Agregar
+            </button>
+        </div>
+
+        <div class="product">
+            <h3>Café</h3>
+            <span>$20</span>
+
+            <button class="add-btn" data-name="Café" data-price="20">
+                Agregar
+            </button>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- TESTIMONIOS -->
+
+<section class="reviews">
+
+    <h2>Opiniones</h2>
+
+    <div class="review-box">
+
+        <p>⭐⭐⭐⭐⭐</p>
+
+        <p>
+            "La mejor birria que hemos probado"
+        </p>
+
+    </div>
+
+    <div class="review-box">
+
+        <p>⭐⭐⭐⭐⭐</p>
+
+        <p>
+            "Llegó caliente y muy rápido"
+        </p>
+
+    </div>
+
+</section>
+
+<!-- CONTACTO -->
+
+<section id="contacto">
+
+    <h2>Haz tu Pedido</h2>
+
+    <p>
+        WhatsApp:
+        <strong>55 6030 5667</strong>
+    </p>
+
+</section>
+
+</main>
+
+<!-- CARRITO -->
+
+<div class="cart-sidebar" id="cart" aria-hidden="true">
+
+    <div class="cart-header">
+        <h2>Tu Pedido</h2>
+
+        <button id="cart-close" aria-label="Cerrar carrito">
+            ✖
+        </button>
+    </div>
+
+    <div id="cart-items"></div>
+
+    <label for="notes" class="sr-only">Notas especiales</label>
+    <textarea
+        id="notes"
+        placeholder="Notas especiales: sin cebolla, extra limón..."
+        aria-label="Notas especiales"
+    ></textarea>
+
+    <div class="cart-total">
+        Total: $<span id="total">0</span>
+    </div>
+
+    <button class="whatsapp-btn" id="send-whatsapp">
+        Enviar por WhatsApp
+    </button>
+
+</div>
+
+<!-- BOTÓN FLOTANTE -->
+
+<a
+href="https://wa.me/525560305667"
+target="_blank"
+rel="noopener noreferrer"
+class="floating-whatsapp"
+aria-label="Abrir WhatsApp">
+
+<i class="fab fa-whatsapp" aria-hidden="true"></i>
+
+</a>
+
+<script src="app.js" defer></script>
+
+</body>
+</html>
